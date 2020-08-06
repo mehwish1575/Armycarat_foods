@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    android:background="@drawable/ad"
+    tools:context=".finish">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="203dp"
+            android:layout_height="91dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/lo" />
+    <TextView
+        android:id="@+id/ftv"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textColor="#FFFFFF"
+        android:text="thank you for reviewing"></TextView>
+
+    <Button
+        android:id="@+id/fbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/angle2"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="finish"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+</LinearLayout>
+</LinearLayout>

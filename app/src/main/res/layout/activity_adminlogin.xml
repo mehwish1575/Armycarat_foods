@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/oo">
+    tools:context=".adminlogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="203dp"
+            android:layout_height="91dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/lo" />
+    <EditText
+        android:id="@+id/un"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/username"
+        android:textColorHint="#F8F3F3"
+        android:textColor="#EBE5E5"></EditText>
+    <EditText
+        android:id="@+id/pas"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:textColorHint="#ECE2E2"
+        android:textColor="#F5EFEF">></EditText>
+        <Button
+            android:id="@+id/lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/angle"
+            android:layout_below="@+id/editText_Marks"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="28dp"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/login" />
+    </LinearLayout>
+</LinearLayout>
